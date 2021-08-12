@@ -1,6 +1,6 @@
 FROM openjdk:8
-					COPY . /var/www/java
-					WORKDIR /var/www/java
+					COPY . src/main/java/com/example/javamavenjunithelloworld
+					WORKDIR src/main/java/com/example/javamavenjunithelloworld
 
 
 					RUN ["javac", "HelloApp.java"]

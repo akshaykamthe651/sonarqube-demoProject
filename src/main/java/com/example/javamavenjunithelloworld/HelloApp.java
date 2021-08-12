@@ -37,6 +37,10 @@ public class HelloApp {
             System.exit(EXIT_STATUS_HELLO_FAILED);
         }
         hi.sayHello(System.out);
+        System.out.println("checking Qualitygate fail Condition on Sonarqube");
+        System.out.println("checking Qualitygate fail Condition on Sonarqube");
+        System.out.println("checking Qualitygate fail Condition on Sonarqube");
+        
     }
 
 }

@@ -3,5 +3,5 @@ FROM openjdk:8
 					WORKDIR /var/www/java
 
 
-					RUN ["javac", "HelloApp.java"]
-					ENTRYPOINT ["java","HelloApp"]
+					RUN ["javac", "/src/main/java/com/example/javamavenjunithelloworld/HelloApp.java"]
+					ENTRYPOINT ["java","/src/main/java/com/example/javamavenjunithelloworld/HelloApp"]

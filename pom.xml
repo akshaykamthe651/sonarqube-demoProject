@@ -90,7 +90,7 @@
         <!-- Integration tests are run during the verify phase. -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-failsafe-plugin</artifactId>
-           <version>${maven-failsafe-plugin.version}</version
+        <version>${maven-failsafe-plugin.version}</version>
         <executions>
           <execution>
             <goals>
